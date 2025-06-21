@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Git and GitHub Commands</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .command {
+      background: #222;
+      color: #0f0;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+    .command code {
+      font-weight: bold;
+      display: block;
+      color: #0ff;
+      margin-bottom: 8px;
+    }
+    .command p {
+      margin: 0;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Git and GitHub Overview</h1>
+  <p><strong>Git</strong> is a software tool and a version control system.</p>
+  <p><strong>GitHub</strong> is a web-based Git repository hosting service. It is a popular platform for hosting and managing version-controlled projects.</p>
+
+  <h2>Alternatives to GitHub</h2>
+  <ul>
+    <li>GitLab</li>
+    <li>BitBucket</li>
+    <li>Azure Repos</li>
+    <li>Gitea</li>
+  </ul>
+
+  <h2>Common Git Commands</h2>
+  <p>Any project files can be added to the Git repository using the terminal with the commands below:</p>
+
+  <div class="command">
+    <code>git add .</code>
+    <p>Adds all files in the current directory to the staging area.</p>
+  </div>
+
+  <div class="command">
+    <code>git commit -m "message"</code>
+    <p>Commits the changes in the staging area with a message describing the changes.</p>
+  </div>
+
+  <div class="command">
+    <code>git branch</code>
+    <p>Lists all the branches you have created.</p>
+  </div>
+
+  <div class="command">
+    <code>PWD</code>
+    <p>Displays the present working directory.</p>
+  </div>
+
+  <div class="command">
+    <code>git checkout "branch"</code>
+    <p>Switches to a different branch in the repository.</p>
+  </div>
+
+  <div class="command">
+    <code>git merge</code>
+    <p>Merges one branch into another in the repository.</p>
+  </div>
+
+  <div class="command">
+    <code>git status</code>
+    <p>Checks the current status of the working directory and staging area.</p>
+  </div>
+
+  <div class="command">
+    <code>git add &lt;filename&gt;</code>
+    <p>Adds a specific file to the staging area.</p>
+  </div>
+
+  <div class="command">
+    <code>git branch -d &lt;branch&gt;</code>
+    <p>Deletes the specified branch.</p>
+  </div>
+
+  <div class="command">
+    <code>git diff</code>
+    <p>Shows changes between the working directory and the staging area.</p>
+  </div>
+
+  <div class="command">
+    <code>git diff --staged</code>
+    <p>Shows changes between the last commit and the staging area (staged changes).</p>
+  </div>
+
+  <div class="command">
+    <code>git stash</code>
+    <p>Temporarily stashes uncommitted changes (both staged and unstaged).</p>
+  </div>
+
+  <div class="command">
+    <code>git stash list</code>
+    <p>Shows a list of all stashed changes.</p>
+  </div>
+
+  <div class="command">
+    <code>git stash apply stash@{0}</code>
+    <p>Applies a specific stash by its index.</p>
+  </div>
+
+  <div class="command">
+    <code>git stash pop</code>
+    <p>Applies the last stash and removes it from the stash list.</p>
+  </div>
+
+  <div class="command">
+    <code>git stash clear</code>
+    <p>Clears all stash entries.</p>
+  </div>
+
+  <div class="command">
+    <code>git rebase</code>
+    <p>Moves or combines a sequence of commits to a new base commit.</p>
+  </div>
+
+  <div class="command">
+    <code>git branch &lt;light-mode&gt;</code>
+    <p>Creates a new branch named <code>light-mode</code>.</p>
+  </div>
+
+  <div class="command">
+    <code>git reflog</code>
+    <p>Displays a list of all recent branch changes and commits.</p>
+  </div>
+
+</body>
+</html>
