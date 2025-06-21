@@ -1,5 +1,5 @@
 console.log ("2"> 1);
-console.log ("02"> 1);//the doube inverted comma in the line means string 
+console.log ("02"> 1);
 
 
 console.log(undefined == 0);

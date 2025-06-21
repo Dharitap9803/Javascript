@@ -1,30 +1,30 @@
-// const newuser = {
-//     name: "Dharita",
-//     age: 18,
-//     location: "New Ranip",
-//     email: "dharita@gmail.com",
-//     LoggedIn: false
-// };
+const newuser = {
+    name: "Dharita",
+    age: 18,
+    location: "New Ranip",
+    email: "dharita@gmail.com",
+    LoggedIn: false
+};
 
-// console.log(newuser.email);           // Access using dot notation
-// console.log(newuser["email"]);        // Access using bracket notation
+console.log(newuser.email);          
+console.log(newuser["email"]);       
 
-// const mySym = Symbol("Key1");
+const mySym = Symbol("Key1");
 
-// const regularuser = {
-//     email: "dharita@gmail.com",
-//     fullname: {
-//         userfullname: {
-//             firstName: "Dharita",
-//             lastName: "choudhry"
-//         }
-//     }
-// };
+const regularuser = {
+    email: "dharita@gmail.com",
+    fullname: {
+        userfullname: {
+            firstName: "Dharita",
+            lastName: "choudhry"
+        }
+    }
+};
 
-// console.log(regularuser.fullname.userfullname.firstName); 
+console.log(regularuser.fullname.userfullname.firstName); 
 
-// users[1].email
-// console.log(tinderuser);
+users[1].email
+console.log(tinderuser);
 
 const tinderUser = {
     id: "123abc",
@@ -48,11 +48,11 @@ const course = {
 
 const { courseInstructor: instructor} = course 
 console.log(instructor);
-// {
-//     name: "Dharita"
-//     coursename: "Js in hindi"
-//     price: "free"
-// }
+{
+    name: "Dharita"
+    coursename: "Js in hindi"
+    price: "free"
+}
 
-// const navbar = (PaymentResponse.company) 
+const navbar = (PaymentResponse.company) 
 

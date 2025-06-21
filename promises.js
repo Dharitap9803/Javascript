@@ -61,8 +61,8 @@ promiseFour
   })
 
   async function consumePromiseFive(){
-        // const response = await promiseFive
-        // console.log(response);
+        const response = await promiseFive
+        console.log(response);
         try{
             const response = await promiseFive
             console.log(response);

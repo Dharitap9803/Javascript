@@ -1,11 +1,11 @@
 
 
-// Javascript execution Context
+Javascript execution Context
 
 
-// Global Ec 
+Global Ec 
 
-// Global execution Context
-// Function execution Context
-// Eval execution Context
+Global execution Context
+Function execution Context
+Eval execution Context
 

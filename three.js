@@ -1,122 +1,120 @@
-// // ["", "", ""]
-// // [{}, {}, {}]
 
-// const arr = [1, 2, 3, 4, 5]
+const arr = [1, 2, 3, 4, 5]
 
-// for (const num of arr) {
-//     // console.log(num);
+for (const num of arr) {
+    // console.log(num);
     
-// }
-// const greetings = "Hello World!"
-// for (const greet of greetings) {
-//     //  console.log(`Each char is ${greet}`)
-// }
-// //
+}
+const greetings = "Hello World!"
+for (const greet of greetings) {
+    //  console.log(`Each char is ${greet}`)
+}
+//
 
-// maps
+maps
 
-// const map = new Map();
+const map = new Map();
 
-// map.set('IN', "India");
-// map.set('USA', "United States of America");
-// map.set('FR', "France");
+map.set('IN', "India");
+map.set('USA', "United States of America");
+map.set('FR', "France");
+
+console.log(map);
+
+// Iterating over the map
+for (const [key, value] of map) {
+    console.log(`${key}: ${value}`);
+}
+
+
+map.set(IN, India)
 
 // console.log(map);
 
-// // Iterating over the map
-// for (const [key, value] of map) {
-//     console.log(`${key}: ${value}`);
-// }
+
+const myObject = {
+    js: "Javascript",
+    py: "Python",
+    rb: "ruby",
+    cpp: "c++"
+};
+
+for (const key in myObject) {
+    console.log(`${key} shortcut is for ${myObject[key]}`);
+}
+
+const programming = ["js", "ruby", "py", "java"]
+
+for (const key in programming) {
+    console.log(key);
+}
 
 
-// map.set(IN, India)
+for (const key in map){
+    console.log(key);
+}
 
-// // console.log(map);
+const map = new Map();
+map.set('IN', 'India');
+map.set('USA', 'United States of America');
+map.set('FR', 'France');
+map.set('JP', 'Japan');
+map.set('CN', 'China');
 
-
-// const myObject = {
-//     js: "Javascript",
-//     py: "Python",
-//     rb: "ruby",
-//     cpp: "c++"
-// };
-
-// for (const key in myObject) {
-//     console.log(`${key} shortcut is for ${myObject[key]}`);
-// }
-
-// const programming = ["js", "ruby", "py", "java"]
-
-// for (const key in programming) {
-//     console.log(key);
-// }
+for (const [key, value] of map){
+    console.log(`key :- value`);
+} 
 
 
-// for (const key in map){
-//     console.log(key);
-// }
+const myObject = {
+    js: "javascript",
+    py: "python",
+    rb: "ruby",
+    cpp: "c++"
+}
 
-// const map = new Map();
-// map.set('IN', 'India');
-// map.set('USA', 'United States of America');
-// map.set('FR', 'France');
-// map.set('JP', 'Japan');
-// map.set('CN', 'China');
-
-// for (const [key, value] of map){
-//     console.log(`key :- value`);
-// } 
-
-
-// const myObject = {
-//     js: "javascript",
-//     py: "python",
-//     rb: "ruby",
-//     cpp: "c++"
-// }
-
-// for (const key in object) {
-//     if (Object.prototype.hasOwnProperty.call(object, key)) {
-//         const element = object[key];
+for (const key in object) {
+    if (Object.prototype.hasOwnProperty.call(object, key)) {
+        const element = object[key];
         
-//     }
-// }
+    }
+}
 
-// for (const key in object){
-//     console.log(`${Key} is for ${object[key]}`);
-// }
-// function Printme (item, index, array){
-//     console.log(item);
-// }
-// const myCoding = [
-//     languageName = "javascript",
-//     languagename = "python",
-//     languageFilename = "js"
-// ]
-
-
-// const myNums = [1, 2, 3, 4, 5, 6];
-
-// myNums.forEach((num) => {
-//     if (num > 4) {
-//         myNums.push(num);
-//     }
-// });
-// console.log(myNums);
+for (const key in object){
+    console.log(`${Key} is for ${object[key]}`);
+}
+function Printme (item, index, array){
+    console.log(item);
+}
+const myCoding = [
+    languageName = "javascript",
+    languagename = "python",
+    languageFilename = "js"
+]
 
 
-// const myNums = [1,2,3,4,5,6];
+const myNums = [1, 2, 3, 4, 5, 6];
 
-// myNums.foreach((num) => {
-//     if (num > 4) {
-//         myNums.push(num);
-//     }
-// });
-// consle.log(myNums);
+myNums.forEach((num) => {
+    if (num > 4) {
+        myNums.push(num);
+    }
+});
+console.log(myNums);
 
 
-// const  userBooks = books.filter(bk) => bk.genre === "fiction");
-// console.log(userBooks);
+const myNums = [1,2,3,4,5,6];
+
+myNums.foreach((num) => {
+    if (num > 4) {
+        myNums.push(num);
+    }
+});
+consle.log(myNums);
+
+
+const  userBooks = books.filter(bk) => bk.genre === "fiction");
+console.log(userBooks);
 
 
 const Books = [
