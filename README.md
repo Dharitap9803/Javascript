@@ -1,2 +1,3 @@
 # Javascript
-this repository is just made to add some javascript files 
+this Github repository is been created for practising purpose and to Revise Javascript 
+It would have some new topics to learn and understand 
